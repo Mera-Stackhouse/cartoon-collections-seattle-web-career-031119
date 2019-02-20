@@ -24,7 +24,7 @@ def find_the_cheese(array)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   shared = array & cheese_types
   if shared.empty?
-    false 
+    nil 
   else
     shared[0]
   end
