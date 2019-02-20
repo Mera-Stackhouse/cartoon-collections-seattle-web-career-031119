@@ -31,5 +31,5 @@ def find_the_cheese(array)# code an argument here
 end
 
 
-array = ["mera", "cheddar", "gouda"]
+array = ["mera", "gouda"]
 puts find_the_cheese(array)
