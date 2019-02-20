@@ -31,4 +31,4 @@ end
 
 
 array = ["mera", "cheddar"]
-find_the_cheese(array)
+puts find_the_cheese(array)
