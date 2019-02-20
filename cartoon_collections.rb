@@ -22,14 +22,12 @@ end
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.find {|x|
-    x.include?(cheese_types)
-  }
+  shared = array & cheese_types
+  if shared.empty?
+    false 
+  else
+    shared[0]
 end
 
 
 array = ["mera", "cheddar"]
-cheese_types = ["cheddar", "gouda", "camembert"]
-shared = array & cheese_types
- 
-puts shared
