@@ -30,6 +30,6 @@ end
 
 array = ["mera", "cheddar"]
 cheese_types = ["cheddar", "gouda", "camembert"]
-shared = array + cheese_types
+shared = array && cheese_types
  
 puts shared
