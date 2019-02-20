@@ -26,3 +26,10 @@ def find_the_cheese(array)# code an argument here
     x.include?(cheese_types)
   }
 end
+
+
+array = ["mera", "cheddar"]
+cheese_types = ["cheddar", "gouda", "camembert"]
+shared = array && cheese_types
+ 
+puts shared
